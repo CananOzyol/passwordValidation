@@ -50,6 +50,7 @@ public class PasswordValidator {
     }
     public static boolean passwordDoNotUse(String password) {
         String str1 = "Password123";
+
         String str2 = "P1234567";
 
         if (password.equals(str1) || password.equals(str2)) {

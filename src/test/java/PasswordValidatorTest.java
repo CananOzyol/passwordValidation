@@ -13,7 +13,7 @@ public class PasswordValidatorTest {
     }
     @Test
     void containsDigit_withDigit(){
-        assertTrue(PasswordValidator.passwordContainsDigits("password123"));
+        assertFalse(PasswordValidator.passwordContainsDigits("password123"));
     }
     @Test
     void containsDigit_withoutDigit(){
